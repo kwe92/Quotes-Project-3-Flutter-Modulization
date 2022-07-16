@@ -2,6 +2,8 @@
 
 import 'package:flutter/material.dart';
 import 'package:quotesapp/ui/homepage.dart';
+import 'package:quotesapp/network/model/listData.dart';
+import 'package:quotesapp/widget/quoteCard.dart';
 
 // Need to add image property to quote class
 // need to assign each quote the proper image
