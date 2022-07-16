@@ -18,15 +18,25 @@ class QuoteCard extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
-            Image.asset(
-                'lib/assets/The-Triumph-Of-Marcus-Aurelius-Ad-121-180.jpeg'),
-            Text(quote.quoteText),
+            Image.asset(quote.imgref),
+            SizedBox(
+              height: 5.0,
+            ),
+            Text(
+              quote.quoteText,
+              textAlign: TextAlign.center,
+              style: TextStyle(fontSize: 16.0),
+            ),
             SizedBox(
               height: 5,
             ),
             Text(
               '- ${quote.author}',
-              style: TextStyle(fontWeight: FontWeight.bold),
+              textAlign: TextAlign.center,
+              style: TextStyle(
+                fontWeight: FontWeight.bold,
+                fontSize: 14.0,
+              ),
             ),
             SizedBox(
               height: 5.0,
@@ -35,9 +45,14 @@ class QuoteCard extends StatelessWidget {
               onPressed: () {
                 delete();
               },
+              style: ElevatedButton.styleFrom(
+                  primary: Color.fromRGBO(65, 85, 39, 1)),
               icon: Icon(Icons.delete),
-              label: Text('Delete Quote'),
-            )
+              label: Text(
+                'Delete Quote',
+                style: TextStyle(),
+              ),
+            ),
           ],
         ),
       ),

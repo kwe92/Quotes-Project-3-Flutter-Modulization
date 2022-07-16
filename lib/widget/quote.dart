@@ -1,6 +1,7 @@
 class Quote {
-  var author;
-  var quoteText;
+  String author;
+  String quoteText;
+  String imgref;
 
-  Quote({this.author, this.quoteText});
+  Quote({required this.author, required this.quoteText, required this.imgref});
 }
