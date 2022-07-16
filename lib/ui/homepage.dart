@@ -47,4 +47,4 @@ class _quotesAppState extends State<quotesApp> {
       ),
     ));
   }
-}.
+}
