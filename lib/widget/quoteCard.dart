@@ -58,4 +58,4 @@ class QuoteCard extends StatelessWidget {
       ),
     );
   }
-}
+}.

@@ -24,4 +24,4 @@ List<Quote> quotesList = [
       author: 'Socretes',
       quoteText: '“The only true wisdom is in knowing you know nothing.”',
       imgref: 'lib/assets/Death_of_Socrates.jpeg'),
-];
+];.
