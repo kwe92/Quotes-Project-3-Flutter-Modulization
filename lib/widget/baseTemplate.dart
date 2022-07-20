@@ -15,7 +15,7 @@ class BaseTemplate extends StatelessWidget {
           appBar: AppBar(
             backgroundColor: const Color.fromRGBO(65, 85, 39, 1),
             title: const Text(
-              'Quotes App',
+              'Quotes Of Life',
               style: TextStyle(fontSize: 20.0),
             ),
           ),
